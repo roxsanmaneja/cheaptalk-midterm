@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #00000080);
+    background-size: cover;
+}
+
+.has-error input, .has-error select {
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(241, 51, 51) !important;
+    border: 1px solid rgba(241, 51, 51) !important;
+}
+
+.errspan  {
+    font-size: 0.8em;
+    color: rgb(255, 113, 113);
+}
+
+.card {
+    -webkit-box-shadow: 0 30px 60px 0 #0000004d;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    background: hwb(0 5% 9% / 0.1);
+    backdrop-filter: blur(8px);
+}
+
+._auth label {
+    color: #f0ebeb;
+}
+
+.btn-primary {
+    margin-top: 2%;
+    width: 100%;
+    padding: 2%;
+    border: none;
+    cursor: pointer;
+}
+
+.ok-close-btn {
+    background-color: rgb(0, 162, 255);
+    color: #fff;
+    padding: 2% 4% 2% 4%;
+}
+
+.ok-close-btn:hover {
+    background-color: rgba(2, 60, 11);
+    color: rgb(202, 208, 18);
+}
+
+.index-btn {
+    padding: 1.5%;
+    cursor: pointer;
+    border: 2px solid #dfdfdf;
+    border-radius: 0px;
+    color: hsl(0, 0%, 87%);
+    transition: all 0.5s;
+}
+
+.index-btn:hover {
+    background-color: #dfdfdf;
+    transition: all 0.5s;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.5);
+}
+
+.msgclosebtn {
+    cursor: pointer;
+}
+
+.login-form {
+    position: relative;
+}
+
+.login-form input { text-indent: 30px;}
+
+.login-form .prepend{
+  position: absolute;
+  top: 39px;
+  left: 10px;
+}
+
+.modal-content {
+    box-shadow: 0 4px 8px 0 rgba(196, 195, 185, 0.7);
+}
+
+.male {
+    background-color: #ADDFFF;
+}
+
+.female {
+    background-color: #FFD1DE;
+}
+
+.dashcon {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(238, 193, 57, 0.3);
+}
+
+.usercard {
+    border-radius: 5px;
+    border: 1px solid #ebe2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    transition: all linear 200ms;
+}
+
+.usercard:hover {
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 7px 7px 10px rgba(188, 143, 7, 0.7);
+    cursor: pointer;
+}
